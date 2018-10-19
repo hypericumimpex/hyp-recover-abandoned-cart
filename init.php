@@ -101,7 +101,7 @@ if( !function_exists( 'yith_ywrac_install_woocommerce_admin_notice') ){
 	function yith_ywrac_install_woocommerce_admin_notice() {
 		?>
         <div class="error">
-            <p><?php _ex( 'YITH WooCommerce Recover Abandoned Cart is enabled but not effective. It requires WooCommerce in order to work.','do not translate plugin name', 'yith-woocommerce-recover-abandoned-cart' ); ?></p>
+            <p><?php _ex( 'HYP WooCommerce Recover Abandoned Cart is enabled but not effective. It requires WooCommerce in order to work.','do not translate plugin name', 'yith-woocommerce-recover-abandoned-cart' ); ?></p>
         </div>
 		<?php
 	}
