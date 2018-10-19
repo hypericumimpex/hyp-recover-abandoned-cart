@@ -15,7 +15,7 @@ Set the time span to consider a cart abandoned and customize a contact email tha
 
 
 == Installation ==
-Important: First of all, you have to download and activate WooCommerce plugin, which is mandatory for YITH WooCommerce Recover Abandoned Cart to be working.
+Important: First of all, you have to download and activate WooCommerce plugin, which is mandatory for WC Recover Abandoned Cart to be working.
 
 1. Unzip the downloaded zip file.
 2. Upload the plugin folder into the `wp-content/plugins/` directory of your WordPress site.
@@ -35,7 +35,7 @@ Fix: Fix Guest cart issue
 
 = 1.2.7 - Released: Sep 26, 2018  =
 Update: Update Core Framework 3.0.23
-Fix: Issue with YITH WooCommerce Deposits & Down Payments
+Fix: Issue with WooCommerce Deposits & Down Payments
 Fix: Shop Manager Option
 
 = 1.2.6 - Released: Aug 5, 2018  =
@@ -191,5 +191,3 @@ Updated: Plugin Core Framework
 = 1.0.0 - Released: July 30, 2015 =
 Initial release
 
-== Suggestions ==
-If you have any suggestions concerning how to improve YITH WooCommerce Recover Abandoned Cart, you can [write to us](mailto:plugins@yithemes.com "Your Inspiration Themes"), so that we can improve YITH WooCommerce Recover Abandoned Cart.
