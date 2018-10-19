@@ -10,7 +10,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 HYP Recover Abandoned Cart helps you manage easily and efficiently all the abandoned carts of your customers.
 
 == Description ==
-Your customers often fill their carts and leave them: thanks to HYP Recover Abandoned Cart you will be able to contact them and remind what they were purchasing and invite them to complete their action.
+Customers often fill their carts and leave them: thanks to HYP Recover Abandoned Cart you will be able to contact them and remind what they were purchasing and invite them to complete their action.
 Set the time span to consider a cart abandoned and customize a contact email that you can send to your customer: a direct contact to make them see what they were ready to purchase!
 
 
