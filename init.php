@@ -1,7 +1,7 @@
 <?php
 /**
-* Plugin Name: WC Recover Abandoned Cart
-* Plugin URI: https://github.com/hypericumimpex/wc-recover-abandoned-cart/
+* Plugin Name: HYP Recover Abandoned Cart
+* Plugin URI: https://github.com/hypericumimpex/hyp-recover-abandoned-cart/
 * Description: <code><strong>WC Recover Abandoned Cart</strong></code> vă ajută să gestionați cu ușurință și eficient toate cosurile abandonate și comenzile în așteptare ale clienților dvs. <a href="https://github.com/hypericumimpex/" target="_blank">Repozitor <strong>HYPERICUM</strong></a>.
 * Version: 1.2.8
 * Author: Romeo C.
@@ -14,7 +14,7 @@
 
 
 /*
- * @package WC Recover Abandoned Cart Premium
+ * @package HYP Recover Abandoned Cart Premium
  * @since   1.0.0
  * @author  Romeo C.
  */
