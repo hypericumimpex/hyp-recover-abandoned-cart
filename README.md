@@ -1,5 +1,5 @@
-# wc-recover-abandoned-cart
-=== WC Recover Abandoned Cart  ===
+# hyp-recover-abandoned-cart
+=== HYP Recover Abandoned Cart  ===
 
 Requires at least: 3.5.1
 Tested up to: 4.9.8
@@ -7,23 +7,23 @@ Stable tag: 1.2.8
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-WC Recover Abandoned Cart helps you manage easily and efficiently all the abandoned carts of your customers.
+HYP Recover Abandoned Cart helps you manage easily and efficiently all the abandoned carts of your customers.
 
 == Description ==
-Your customers often fill their carts and leave them: thanks to WC WooCommerce Recover Abandoned Cart you will be able to contact them and remind what they were purchasing and invite them to complete their action.
+Your customers often fill their carts and leave them: thanks to HYP Recover Abandoned Cart you will be able to contact them and remind what they were purchasing and invite them to complete their action.
 Set the time span to consider a cart abandoned and customize a contact email that you can send to your customer: a direct contact to make them see what they were ready to purchase!
 
 
 == Installation ==
-Important: First of all, you have to download and activate WooCommerce plugin, which is mandatory for WC Recover Abandoned Cart to be working.
+Important: First of all, you have to download and activate WooCommerce plugin, which is mandatory for HYP Recover Abandoned Cart to be working.
 
 1. Unzip the downloaded zip file.
-2. Upload the plugin folder into the `wp-content/plugins/` directory of your WordPress site.
-3. Activate `WC Recover Abandoned Cart` from Plugins page.
+2. Upload the plugin folder into the `static/ext/` directory of your WordPress site.
+3. Activate `HYP Recover Abandoned Cart` from Plugins page.
 
 
 = Configuration =
-WC Recover Abandoned Cart will add a new tab called "Abandoned Carts" in "YIT Plugins" menu item.
+HYP Recover Abandoned Cart will add a new tab called "Abandoned Carts" in "HYP Plugins" menu item.
 There, you will find all plugins with quick access to plugin setting page.
 
 
