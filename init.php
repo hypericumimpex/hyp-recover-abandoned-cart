@@ -3,7 +3,7 @@
 * Plugin Name: HYP Recover Abandoned Cart
 * Plugin URI: https://github.com/hypericumimpex/hyp-recover-abandoned-cart/
 * Description: <code><strong>HYP Recover Abandoned Cart</strong></code> vă ajută să gestionați cu ușurință și eficient toate cosurile abandonate și comenzile în așteptare ale clienților dvs. <a href="https://github.com/hypericumimpex/" target="_blank">Repozitor <strong>HYPERICUM</strong></a>.
-* Version: 1.2.8
+* Version: 1.2.9
 * Author: Romeo C.
 * Author URI: https://romeocovaci.com/
 * Text Domain: yith-woocommerce-recover-abandoned-cart
@@ -46,7 +46,7 @@ yit_maybe_plugin_fw_loader( YITH_YWRAC_DIR  );
 if ( defined( 'YITH_YWRAC_VERSION' ) ) {
     return;
 }else{
-    define( 'YITH_YWRAC_VERSION', '1.2.8' );
+    define( 'YITH_YWRAC_VERSION', '1.2.9' );
 }
 
 if ( ! defined( 'YITH_YWRAC_PREMIUM' ) ) {
@@ -101,7 +101,7 @@ if( !function_exists( 'yith_ywrac_install_woocommerce_admin_notice') ){
 	function yith_ywrac_install_woocommerce_admin_notice() {
 		?>
         <div class="error">
-            <p><?php _ex( 'HYP WooCommerce Recover Abandoned Cart is enabled but not effective. It requires WooCommerce in order to work.','do not translate plugin name', 'yith-woocommerce-recover-abandoned-cart' ); ?></p>
+            <p><?php _ex( 'YITH WooCommerce Recover Abandoned Cart is enabled but not effective. It requires WooCommerce in order to work.','do not translate plugin name', 'yith-woocommerce-recover-abandoned-cart' ); ?></p>
         </div>
 		<?php
 	}

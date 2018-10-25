@@ -21,6 +21,14 @@
 	<tbody>
 	<?php foreach ( $cart_content['cart'] as $key => $raq ):
 		$_product = wc_get_product( ( isset( $raq['variation_id'] ) && $raq['variation_id'] != '' ) ? $raq['variation_id'] : $raq['product_id'] );
+
+		if ( WC()->cart->display_prices_including_tax() ) {
+			$product_price = wc_get_price_including_tax( $_product );
+		} else {
+			$product_price = wc_get_price_excluding_tax( $_product );
+		}
+	    $product_price = wc_price( $product_price, array( 'currency' => $currency ) );
+
 		if ( $_product ):
 			?>
 			<tr class="cart_item">
@@ -86,7 +94,7 @@
 				</td>
 				<td class="product-price">
 					<?php
-					echo wc_price( $_product->get_price(), array( 'currency' => $currency ) );
+					echo $product_price;
 					?>
 				</td>
 
@@ -96,7 +104,7 @@
 
 				<td class="product-subtotal">
 					<?php
-					echo wc_price( $_product->get_price() * $raq['quantity'], array( 'currency' => $currency ) );
+					echo $product_price * $raq['quantity'];
 					?>
 				</td>
 			</tr>
